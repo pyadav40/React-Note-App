@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Ubuntu:wght@300&display=swap");
+.note {
+  border-radius: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  max-width: auto;
+  max-height: 350px;
+  background-color: #1affa7;
+  font-family: "Kalam", cursive;
+}
+.top-icons {
+  color: #4d0500;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  max-height: 30px;
+  border-radius: 10px 0px 0px;
+  background-color: rgba(10, 7, 8, 0.53);
+}
+.dustbin {
+  cursor: pointer;
+  padding: 3px;
+}
+textarea {
+  font-family: "Kalam", cursive;
+  margin: 10px;
+  height: 80%;
+  background: transparent;
+  border: none;
+  color: black;
+}
+::placeholder {
+  color: rgb(34, 36, 36);
+  opacity: 0.6;
+}
+textarea:focus,
+input:focus {
+  outline: 0;
+}
+.note-util {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+}
+
+.util_icons {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(30, 30, 31);
+  color: white;
+  border-radius: 15px;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 1px;
+  background-color: rgba(15, 11, 12, 0.3);
+  border-radius: 2px;
+  margin: 10px auto;
+}
+
+input[type="text"] {
+  color: #132425;
+  font-size: larger;
+  font-family: "Kalam", cursive;
+  width: 70%;
+  border: none;
+  background: transparent;
+
+  font-weight: 600;
+}
+.col-container {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 8px;
+}
+.neon {
+  background-color: #1affa7;
+}
+.green {
+  background-color: #3fe955;
+}
+
+.purple {
+  background-color: #cc57f3;
+}
+
+@media screen and (max-width: 480px) {
+  .note {
+    width: 280px;
+  }
+}
