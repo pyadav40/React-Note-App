@@ -48,6 +48,7 @@ ul .icon-toogle {
   cursor: pointer;
   width: 28px;
   height: 28px;
+  margin-right: 1.5rem;
   background-color: #8d37ff;
   display: flex;
   justify-content: center;
